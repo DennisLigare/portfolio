@@ -1,0 +1,31 @@
+header {
+    background: $dark_blue;
+   
+    width: 100%;
+    color: $light_grey;
+
+    .header-wrapper {
+        width: 80%;
+        margin: 0 auto;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        ul {
+            display: flex;
+
+            li {
+                list-style: none;
+                margin-left: 15px;
+    
+            }
+        }
+        
+
+    }
+
+    
+}
