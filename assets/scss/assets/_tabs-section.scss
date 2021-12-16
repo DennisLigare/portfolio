@@ -1,0 +1,46 @@
+.skills {
+  padding: 50px 0;
+
+  .tab-container {
+    background-color: $light_blue;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .tabs {
+    display: flex;
+
+    .tab {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      width: 100%;
+      border: 2px solid $dark_blue;
+      transition: all 0.5s ease;
+
+      &.active {
+        background-color: $yellow;
+        color: $dark_blue;
+        transition: all 0.5s ease;
+      }
+    }
+  }
+
+  .content-container {
+    padding: 20px;
+
+    .content-tab {
+      display: none;
+      h3 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+
+      &.visible {
+        display: block;
+      }
+    }
+  }
+}

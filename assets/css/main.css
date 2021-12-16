@@ -6,10 +6,10 @@
   font: inherit;
   vertical-align: baseline;
   box-sizing: boder-box;
-  background: #282b41;
 }
 
 body {
+  background: #1f2132;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #ebebeb;
@@ -76,6 +76,46 @@ header nav ul li {
   width: 400x;
   height: 400px;
   display: flex;
+}
+
+.skills {
+  padding: 50px 0;
+}
+.skills .tab-container {
+  background-color: #282b41;
+  width: 60%;
+  margin: 0 auto;
+}
+.skills .tabs {
+  display: flex;
+}
+.skills .tabs .tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  width: 100%;
+  border: 2px solid #1f2132;
+  transition: all 0.5s ease;
+}
+.skills .tabs .tab.active {
+  background-color: #f6c783;
+  color: #1f2132;
+  transition: all 0.5s ease;
+}
+.skills .content-container {
+  padding: 20px;
+}
+.skills .content-container .content-tab {
+  display: none;
+}
+.skills .content-container .content-tab h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.skills .content-container .content-tab.visible {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
