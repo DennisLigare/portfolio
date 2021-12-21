@@ -11,7 +11,11 @@
 body {
   background: $dark_blue;
   font-family: $font_body;
-  font-weight: 300;
+  font-weight: 500;
   color: $light_grey;
   font-size: 16px;
+}
+
+p {
+  line-height: 1.3;
 }
