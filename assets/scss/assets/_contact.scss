@@ -1,0 +1,25 @@
+.contact {
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  top: 35%;
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    a {
+      font-size: 27px;
+      padding: 0 30px 10px 0;
+      color: $light_grey;
+      transition: color 0.4s ease;
+
+      &:hover {
+        color: $yellow;
+        transition: color 0.4s ease;
+      }
+    }
+  }
+
+}

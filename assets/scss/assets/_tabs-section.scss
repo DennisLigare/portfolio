@@ -16,9 +16,16 @@
       align-items: center;
       padding: 10px 15px;
       width: 100%;
-      border: 2px solid $dark_blue;
+      border-bottom: 2px solid $dark_blue;
+      border-right: 2px solid $dark_blue;
       transition: all 0.5s ease;
+      cursor: pointer;
 
+      &:last-child {
+        border-right: none;
+      }
+
+      &:hover,
       &.active {
         background-color: $yellow;
         color: $dark_blue;
