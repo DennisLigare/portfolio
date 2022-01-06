@@ -25,6 +25,15 @@ header {
         list-style: none;
         margin-left: 50px;
         font-weight: 600;
+
+        a {
+          color: $light_grey;
+          text-decoration: none;
+
+          &:hover{
+            color: $yellow;
+          }
+        }
       }
     }
   }
