@@ -154,4 +154,29 @@ header nav ul li {
   transition: color 0.4s ease;
 }
 
+footer {
+  height: 100px;
+  background: #282b41;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+footer h2 {
+  margin-bottom: 20px;
+  color: #f6c783;
+  font-family: "Eczar", sans-serif;
+  font-size: 20px;
+}
+footer .contact-container a {
+  padding-right: 6px;
+  color: #f6c783;
+  transition: color 0.5s ease;
+}
+footer .contact-container a:hover {
+  color: #ebebeb;
+  transition: color 0.5s ease;
+}
+
 /*# sourceMappingURL=main.css.map */
