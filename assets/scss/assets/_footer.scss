@@ -1,0 +1,32 @@
+
+footer {
+    height: 100px;
+    background: $light_blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+
+    h2 {
+        margin-bottom: 20px;
+        color: $yellow;
+        font-family: $font_title;
+        font-size: 20px;
+    }
+
+    .contact-container {
+    
+        a{
+            padding-right: 6px;
+            color: $yellow;
+            transition: color 0.5s ease;
+
+            &:hover {
+                color: $light_grey;
+                transition: color 0.5s ease;
+            }
+            
+        }
+    }
+}
