@@ -20,6 +20,7 @@
       border-right: 2px solid $dark_blue;
       transition: all 0.5s ease;
       cursor: pointer;
+      font-weight: 600;
 
       &:last-child {
         border-right: none;
