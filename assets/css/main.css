@@ -83,16 +83,32 @@ header nav ul li a:hover {
 .hero .box {
   padding-right: 1px;
   box-sizing: border-box;
+  max-width: 400px;
+  height: auto;
 }
 .hero .image {
-  width: 400x;
-  height: 400px;
   display: flex;
 }
 .hero .image img {
   border-radius: 50%;
+  max-width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero .info {
+    order: 2;
+  }
+  .hero .box {
+    order: 1;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
 .skills {
   padding: 50px 0;
 }

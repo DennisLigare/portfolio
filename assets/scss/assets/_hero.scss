@@ -33,19 +33,37 @@
   .box {
     padding-right: 1px;
     box-sizing: border-box;
+    max-width: 400px;
+    height: auto;
   }
 
   .image {
-    width: 400x;
-    height: 400px;
     display: flex;
 
     img {
       border-radius: 50%;
+      max-width: 100%;
     }
   }
 }
 
+@media screen and (max-width: 480px) {
+  .hero {
+    flex-direction: column;
+
+    .info {
+      order: 2;
+    }
+
+    .box {
+      order: 1;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  }
+}
 
 
 
