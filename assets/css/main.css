@@ -108,6 +108,13 @@ header nav ul li a:hover {
     justify-content: center;
     margin-bottom: 20px;
   }
+
+  .tab-container .tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 86%;
+  }
 }
 .skills {
   padding: 50px 0;
@@ -178,6 +185,11 @@ header nav ul li a:hover {
   transition: color 0.4s ease;
 }
 
+@media screen and (max-width: 480px) {
+  .contact {
+    position: absolute;
+  }
+}
 footer {
   height: 100px;
   background: #282b41;

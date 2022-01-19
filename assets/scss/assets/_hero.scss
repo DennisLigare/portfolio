@@ -63,6 +63,19 @@
       margin-bottom: 20px;
     }
   }
+
+  .tab-container{
+    .tabs {
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      width: 86%;
+      
+     }
+     
+    
+    }
+    
 }
 
 
