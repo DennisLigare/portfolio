@@ -52,3 +52,15 @@
     }
   }
 }
+
+@media screen and (max-width: 480px){
+  .tabs{
+    display: flex;
+    width: 11%;
+    font-size: 12px;
+
+    .tabs active{
+      text-align: center;
+    }
+  }
+}

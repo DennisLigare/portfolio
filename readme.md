@@ -1,5 +1,5 @@
 Update npm packages: npm install
-Watch sass files: npm run sass-dev
+Watch sass files: git 
 Stop watching sass files: crtl + C
  
  git instructions
