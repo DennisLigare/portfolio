@@ -52,3 +52,12 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .tabs{
+    display: flex;
+    width: 10%;
+    text-align: justify;
+    font-size: 12px;
+  }
+}
